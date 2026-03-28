@@ -1,0 +1,23 @@
+name = "sink"
+main = ".output/server/index.mjs"
+compatibility_date = "2025-10-01"
+compatibility_flags = [ "nodejs_compat_v2" ]
+keep_vars = true
+upload_source_maps = true
+
+[assets]
+binding = "ASSETS"
+directory = ".output/public"
+html_handling = "drop-trailing-slash"
+
+[ai]
+binding = "AI"
+remote = true
+
+[[analytics_engine_datasets]]
+binding = "ANALYTICS"
+dataset = "sink"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "a3ea3e4918c74a8b8e185da187bd0b20"
