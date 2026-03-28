@@ -21,3 +21,4 @@ dataset = "sink"
 [[kv_namespaces]]
 binding = "KV"
 id = "a3ea3e4918c74a8b8e185da187bd0b20"
+
